@@ -1,10 +1,10 @@
 # sample-portfolio
 
-> My posh Nuxt.js project
+> My first Nuxt.js project https://ecstatic-ardinghelli-6c0827.netlify.com/
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 
