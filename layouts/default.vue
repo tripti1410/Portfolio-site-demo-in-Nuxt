@@ -56,9 +56,7 @@ img {
   max-width: 100%;
 }
 
-a,
-a:visited,
-a:active {
+a {
   color: inherit;
   text-decoration: none;
 }

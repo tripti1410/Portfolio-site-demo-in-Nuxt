@@ -47,7 +47,7 @@ export default {
 }
 .projects-page section {
   grid-area: projectSection;
-  background-color: #f4f9e9;
+  background-color: aliceblue;
   padding: 2.4rem 1.6rem 1.6rem 2.4rem;
 }
 .projects-page .project {
