@@ -1,8 +1,5 @@
 <template>
   <main class="home">
-    <!-- <div class="background-image">
-      <img src="~/assets/images/background-img.jpg" />
-    </div>-->
     <header class="masthead">
       <h1 class="app-title">Hello, I'm Trapti Rahangdale</h1>
       <h2 class="app-subtitle">Frontend Developer</h2>

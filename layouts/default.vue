@@ -60,6 +60,11 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.links {
+  font-weight: 700;
+  border-bottom: 2px solid;
+  padding: 0.2rem;
+}
 
 *,
 *:before,

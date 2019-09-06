@@ -14,16 +14,22 @@
     <aside>
       <h3 class="aside-title">About</h3>
       <p class="aside-description">
-        I create projects in github for experiments and fun. Not all projects are fully functional or pixel perfect.
+        I create projects at github for experiments and fun. Not all projects are fully functional or pixel perfect.
         Few projects are the company's assignments and completed in time limits.
       </p>
       <p class="aside-description">
         I do experiment at
-        <a href="https://codepen.io/tripti1410">Codepen</a>, mostly on CSS Grid layout, SVG's and Animations.
+        <a
+          href="https://codepen.io/tripti1410"
+          class="links"
+          target="_blank"
+        >Codepen</a>, mostly on CSS Grid layout, SVG's and Animations.
         You can find more about me at
         <a
+          class="links"
           href="https://www.iamtrapti.com/"
-        >website</a>
+          target="_blank"
+        >portfolio</a>.
       </p>
     </aside>
   </main>
