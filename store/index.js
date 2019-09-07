@@ -11,7 +11,7 @@ export const actions = {
     if (state.githubProjects.length) return;
     try {
       let githubProjects = await fetch(
-        `https://api.github.com/users/tripti1410/repos`
+        `https://api.github.com/users/tripti1410/repos?sort="updated"`
       ).then(response => response.json());
       githubProjects = githubProjects
         .filter(el => el.fork === false)

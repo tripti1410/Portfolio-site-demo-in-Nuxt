@@ -4,7 +4,7 @@
       <h1 class="title">Projects</h1>
       <div v-for="project in githubProjects" :key="project.id" class="project">
         <h3 class="project-title">
-          <a :href="project.html_url">{{ project.name }}</a>
+          <a :href="project.html_url" target="_blank">{{ project.name }}</a>
         </h3>
         <p class="stars">✷ {{ project.stargazers_count }}</p>
         <p>{{ project.homepage }}</p>
@@ -14,6 +14,12 @@
     <aside>
       <h3 class="aside-title">About</h3>
       <p class="aside-description">
+        You can find code for this project
+        <a
+          class="link"
+          href="https://github.com/tripti1410/Portfolio-site-demo-in-Nuxt"
+          target="_blank"
+        >here</a>.
         I create projects at github for experiments and fun. Not all projects are fully functional or pixel perfect.
         Few projects are the company's assignments and completed in time limits.
       </p>
@@ -21,12 +27,12 @@
         I do experiment at
         <a
           href="https://codepen.io/tripti1410"
-          class="links"
+          class="link"
           target="_blank"
         >Codepen</a>, mostly on CSS Grid layout, SVG's and Animations.
         You can find more about me at
         <a
-          class="links"
+          class="link"
           href="https://www.iamtrapti.com/"
           target="_blank"
         >portfolio</a>.
